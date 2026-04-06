@@ -1,7 +1,4 @@
-// 仅仅将导入方式改为更具兼容性的解构赋值，保持所有逻辑和变量名完全一致
-const sqlite = require("node:sqlite");
-const { DatabaseSync } = sqlite;
-
+import { DatabaseSync } from "node:sqlite";
 import { DB_PATH, ensureRuntimeDirs } from "@/src/server/runtime";
 
 let database;
