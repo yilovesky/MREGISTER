@@ -4,7 +4,7 @@
 
   # 1. 定义运行所需的软件包
   packages = [
-    pkgs.nodejs_20
+    pkgs.nodejs_22   # 🌟 重点：这里必须改为 22 才能支持 node:sqlite
     pkgs.openssl
     pkgs.chromium
   ];
